@@ -44,6 +44,27 @@ The display section uses cascaded **HEF4094BT shift registers**, allowing multip
 <p align="center">
   <img src="Images/Queue_Local_Display_ATmega328PB_Angled.png" alt="Queue Local Display PCB Angled View" width="70%">
 </p>
+## Manufacturing Files
+
+Ready-to-manufacture Gerber and drill files are provided for this PCB.
+
+- 📁 [Browse Gerber Files](Hardware/Gerber)
+- 📦 [Download Complete Gerber ZIP](Hardware/Gerber/Queue_Local_Display_Atmega328PB_GERBER.zip)
+- 🛠️ [KiCad Source Files](Hardware/KiCad)
+
+The Gerber package includes the copper, solder mask, silkscreen, solder paste, board outline, plated-hole and non-plated-hole drill files required for PCB fabrication.
+
+### PCB Specifications
+
+| Parameter | Specification |
+| --- | --- |
+| Layers | 2 |
+| PCB Thickness | 1.6 mm |
+| Material | FR-4 |
+| Copper Thickness | 35 µm / 1 oz |
+| Board Size | approximately 340.05 × 100.05 mm |
+
+> **Note:** Always verify the Gerber files and manufacturing parameters with your PCB manufacturer before placing an order.
 
 ## Display Configuration
 
