@@ -30,6 +30,21 @@ The display section uses cascaded **HEF4094BT shift registers**, allowing multip
 * Optional RS-485 termination
 * Designed for continuous **24/7 operation**
 
+## 3D Preview
+
+### Top & Bottom Views
+
+<p align="center">
+  <img src="Images/Queue_Local_Display_ATmega328PB_Top.png" alt="Queue Local Display PCB Top View" width="47%">
+  <img src="Images/Queue_Local_Display_ATmega328PB_Bottom.png" alt="Queue Local Display PCB Bottom View" width="47%">
+</p>
+
+### Angled View
+
+<p align="center">
+  <img src="Images/Queue_Local_Display_ATmega328PB_Angled.png" alt="Queue Local Display PCB Angled View" width="70%">
+</p>
+
 ## Display Configuration
 
 The board uses:
@@ -120,7 +135,7 @@ The board uses a **MAX485** half-duplex RS-485 transceiver.
 
 The RE and DE pins are connected together and controlled from a single GPIO.
 
-The board is designed for RS-485 bus / daisy-chain wiring.
+The board is designed for **RS-485 bus / daisy-chain wiring**.
 
 ```text
 MASTER
@@ -156,9 +171,9 @@ Each local display can be assigned an individual device address.
 
 Three buttons are used:
 
-* SET
-* UP
-* DOWN
+* **SET**
+* **UP**
+* **DOWN**
 
 The selected address is stored in the internal EEPROM of the ATmega328PB.
 
@@ -181,7 +196,7 @@ This eliminates the need for DIP switches and simplifies installation and field 
                   +----> HC-12
 ```
 
-The AP63205WU-7 provides the regulated 5 V logic supply.
+The **AP63205WU-7** provides the regulated 5 V logic supply.
 
 The 12 V rail directly supplies the display driver section and external indicators.
 
