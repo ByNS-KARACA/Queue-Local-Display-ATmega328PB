@@ -19,8 +19,8 @@ The display section uses cascaded **HEF4094BT shift registers**, allowing multip
 * **HEF4094BT** cascaded display architecture
 * **ULN2003A** 5 V to 12 V logic interface
 * Static-drive 7-segment display architecture
-* 4 × large 56 mm queue-number displays
-* 2 × auxiliary 7-segment displays
+* 6 × large 56 mm 7-segment display positions
+* 2 display positions support optional FJ11001AH alternative displays
 * EEPROM-based device addressing
 * SET / UP / DOWN configuration buttons
 * PWM-capable global display brightness control
@@ -53,7 +53,7 @@ Ready-to-manufacture Gerber and drill files are provided for this PCB.
 - 📁 [Browse Gerber Files](Hardware/Gerber)
 - 📦 [Download Complete Gerber ZIP](Hardware/Gerber/Queue_Local_Display_Atmega328PB_GERBER.zip)
 - 🛠️ [KiCad Source Files](Hardware/KiCad)
-
+- 📋 [Bill of Materials (BOM)](Hardware/BOM/Queue_Local_Display_ATmega328PB_BOM.xlsx)
 The Gerber package includes the copper, solder mask, silkscreen, solder paste, board outline, plated-hole and non-plated-hole drill files required for PCB fabrication.
 
 ### PCB Specifications
