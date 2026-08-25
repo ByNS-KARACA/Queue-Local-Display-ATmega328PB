@@ -44,8 +44,7 @@ The display section uses cascaded **HEF4094BT shift registers**, allowing multip
 <p align="center">
   <img src="Images/Queue_Local_Display_ATmega328PB_Angled.png" alt="Queue Local Display PCB Angled View" width="70%">
 </p>
-</p>
-</p>
+
 ## Manufacturing Files
 
 Ready-to-manufacture Gerber and drill files are provided for this PCB.
@@ -78,7 +77,14 @@ The board uses:
 * 2.3 inch / approximately 56 mm
 * Red
 * Common Anode
+### Optional Alternative Display
 
+Two display positions also support:
+
+- 2 × **FJ11001AH**
+- Smaller red 7-segment display
+- Optional alternative to SM412301N
+- Not populated simultaneously with SM412301N at the same position
 ### Counter / Desk Number
 
 * 2 × **FJ11001AH**
